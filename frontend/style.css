@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+/* Hide sections */
+.hidden {
+  display: none;
+}
+
+/* Home UI */
+#home {
+  margin-top: 80px;
+}
+
+#home h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#home p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* SOS Button */
+button {
+  padding: 16px 40px;
+  font-size: 20px;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+
+/* Map Container */
+#mapContainer {
+  padding: 20px;
+}
+
+#statusText {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+#etaText {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* 🔴 CRITICAL: MAP HEIGHT */
+#map {
+  height: 450px;        /* REQUIRED for Leaflet */
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.subtitle {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Info Section */
+.info-section {
+  margin: 40px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.info-section h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.info-section ul {
+  padding-left: 20px;
+}
+
+.info-section li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Numbers Section */
+.numbers-section {
+  margin: 40px auto;
+  max-width: 700px;
+}
+
+.numbers-section h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.numbers-grid {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.number-card {
+  background: #ffffff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  min-width: 150px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.number-card h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.number-card p {
+  margin: 5px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d32f2f;
+}
