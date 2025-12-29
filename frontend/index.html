@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Women Safety SOS</title>
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HOME -->
+<div id="home">
+
+  <!-- HERO -->
+  <h1>Women Safety SOS</h1>
+  <button id="sosBtn">🚨 SOS</button>
+  <p class="subtitle">
+    Press SOS to immediately alert nearby police and optimize response route
+  </p>
+
+  <!-- SAFETY INFO -->
+  <section class="info-section">
+    <h2>Women Safety Information</h2>
+    <ul>
+      <li>• Share your live location with trusted authorities</li>
+      <li>• Stay in public or well-lit areas if possible</li>
+      <li>• Avoid engaging with suspicious individuals</li>
+      <li>• Use SOS only in genuine emergencies</li>
+    </ul>
+  </section>
+
+  <!-- EMERGENCY NUMBERS -->
+  <section class="numbers-section">
+    <h2>Emergency & Helpline Numbers</h2>
+
+    <div class="numbers-grid">
+      <div class="number-card">
+        <h3>🚓 Police</h3>
+        <p>112</p>
+      </div>
+
+      <div class="number-card">
+        <h3>👩 Women Helpline</h3>
+        <p>1091</p>
+      </div>
+
+      <div class="number-card">
+        <h3>🆘 National Emergency</h3>
+        <p>112</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+
+  <!-- MAP -->
+  <div id="mapContainer" class="hidden">
+    <h2 id="statusText"></h2>
+    <p id="etaText"></p>
+    <div id="map"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
